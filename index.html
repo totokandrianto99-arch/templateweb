@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <!-- Menentukan karakter yang digunakan agar huruf dan simbol dapat ditampilkan dengan benar -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Membuat tampilan website menyesuaikan ukuran layar HP, tablet, dan komputer -->
+
+    <title>Dokumentasi Kelompok X</title>
+    <!-- Judul yang akan muncul pada tab browser -->
+
+    <link rel="stylesheet" href="style.css"> 
+   <!--- Menghubungkan file CSS eksternal untuk mengatur tampilan website -->
+</head>
+
+<body>
+    <!-- =========================
+         NAVIGASI
+         ========================= -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#kelompok">Kelompok</a>
+        <a href="#fotografi">Fotografi</a>
+        <a href="#editing">Editing</a>
+        <a href="#kode">Kode Arduino</a>
+    </nav>
+
+    <!-- =========================
+         HEADER / PEMBUKA
+         ========================= -->
+    <header id="home">
+        <h1>Dokumentasi Proyek Kelompok X</h1>
+        <!-- Judul utama website -->
+        <p>
+            Hasil Fotografi, Editing, dan Dokumentasi Program
+        </p>
+        <!-- Deskripsi singkat isi website -->
+    </header>
+
+    <!-- =========================
+         INFORMASI KELOMPOK
+         ========================= -->
+    <section id="kelompok">
+        <h2>Kelompok Kami</h2>
+        <p style="text-align: center;">
+            Kelompok X terdiri dari.
+        </p>
+        <br>
+        <div class="anggota">
+            <div>
+                <ol>
+                    <li>Nama Anggota 1</li>
+                    <li>Nama Anggota 2</li>
+                    <li>Nama Anggota 3</li>
+                    <li>Nama Anggota 4</li>
+        </div>
+    </section>
+
+    <!-- =========================
+         HASIL FOTOGRAFI
+         ========================= -->
+    <section id="fotografi">
+        <h2>Hasil Fotografi</h2>
+        <p>
+            Berikut adalah dokumentasi foto selama proses pengerjaan
+            proyek.
+        </p>
+        <br>
+        <div class="galeri">
+            <div class="foto">
+                <img src="image.png" alt="Proses merangkai Arduino">
+                <p>
+                    Hasil akhir proyek.
+                </p>
+            </div>
+            <div class="foto">
+                <img src="image.png" alt="Proses merangkai Arduino">
+                <p>
+                    Proses pengerjaan proyek.
+                </p>
+            </div>
+            <div class="foto">
+                <img src="image.png" alt="Proses merangkai Arduino">
+                <p>
+                    Dokumentasi proyek.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================
+         HASIL VIDEO
+         ========================= -->
+    <section id="editing">
+        <h2>Proses Editing video</h2>
+        <div class="editing">
+            <video src="video.mp4" controls></video>
+                <p>
+                    Editing dilakukan menggunakan aplikasi ini.
+                </p>
+        </div>
+    </section>
+
+    <!-- =========================
+         DOKUMENTASI KODE ARDUINO
+         ========================= -->
+    <section id="kode">
+        <h2>Dokumentasi Kode Arduino</h2>
+        <p>
+            Berikut contoh program sederhana kami.
+        </p>
+        <div class="kode">
+<pre>
+<!-- #define LED_PIN 13
+     Menentukan pin digital 13 sebagai pin yang digunakan untuk LED. -->
+
+#define LED_PIN 13
+
+ void setup() {
+         pinMode(LED_PIN, OUTPUT);
+     }
+     <!-- Fungsi setup() dijalankan sekali saat Arduino dinyalakan.
+     Di sini, pin 13 diatur sebagai OUTPUT. -->
+</pre>
+        </div>
+
+    <!-- =========================
+         KESIMPULAN
+         ========================= -->
+    <section>
+        <h2>Kesimpulan</h2>
+        <p>
+            Melalui proyek ini, kelompok kami mempelajari cara merangkai
+            komponen Arduino, membuat program sederhana, melakukan
+            pengujian, serta mendokumentasikan proses pengerjaan dalam
+            bentuk foto dan website.
+        </p>
+    </section>
+
+    <!-- =========================
+         FOOTER
+         ========================= -->
+
+    <footer>
+        <p>
+            &copy; 2026 Kelompok X. All rights reserved.
+        </p>
+        <p>
+            Tugas Dokumentasi Proyek
+        </p>
+    </footer>
+</body>
+</html>

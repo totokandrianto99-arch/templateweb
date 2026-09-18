@@ -1,0 +1,132 @@
+/* Mengatur semua elemen */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Tampilan halaman */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* NAVBAR */
+nav {
+    background-color: #222;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #00a8e8;
+}
+
+/* HEADER */
+header {
+    background-color: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* BAGIAN SECTION */
+section {
+    max-width: 1000px;
+    margin: 25px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+section h2 {
+    color: #0077b6;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* ANGGOTA KELOMPOK */
+.anggota {
+    text-align: center;
+}
+
+.anggota div {
+    background-color: #e8f4f8;
+    padding: 15px 30px;
+    border-radius: 8px;
+}
+
+/* GALERI FOTO */
+.galeri {
+    text-align: center;
+}
+
+.foto {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    width: 300px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.foto img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.foto p {
+    padding: 10px;
+    text-align: center;
+}
+
+/* VIDEO */
+.editing {
+    text-align: center;
+}
+
+.editing video {
+    width: 100%;
+    max-width: 600px;
+}
+
+/* KODE ARDUINO */
+.kode {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+pre {
+    font-family: monospace;
+}
+
+/* KESIMPULAN */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 25px;
+}
